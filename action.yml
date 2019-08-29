@@ -1,12 +1,15 @@
-name: 'Container Action Template'
-description: 'Get started with Container actions'
-author: 'GitHub'
+name: 'Build and deploy Jekyll website'
+description: 'Build and deploy Jekyll website to another branch'
+author: 'danbraj'
 inputs: 
-  myInput:
-    description: 'Input to use'
-    default: 'world'
+  greet:
+    description: 'Whos to greet?'
+    default: 'Daniel'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.myInput }}
+    - ${{ inputs.greet }}
+branding:
+  icon: 'wind'
+  color: 'blue'

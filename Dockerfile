@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM ruby:2-slim
 
 COPY LICENSE README.md /
 

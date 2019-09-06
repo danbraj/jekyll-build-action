@@ -9,6 +9,9 @@ echo "> Project installation completed"
 bundle exec jekyll build
 echo "> Build completed"
 
+echo "Test 1: ${GITHUB_TOKEN}"
+echo "Test 2: $GITHUB_TOKEN"
+
 remote_repo="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
 cd _site

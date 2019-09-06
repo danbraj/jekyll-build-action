@@ -1,4 +1,4 @@
-FROM ruby:2-alpine
+FROM ruby:2.6
 
 COPY LICENSE README.md /
 

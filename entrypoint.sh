@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 echo "Hello, $1"
-gem install bundler --no-ri --no-rdoc -v 2.0.1
+gem install bundler -v 2.0.1
 echo "> Bundle installation completed"
 bundle install
 echo "> Project installation completed"

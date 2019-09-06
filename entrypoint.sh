@@ -1,5 +1,6 @@
 #!/bin/sh -l
 
+bundle --version
 echo "Hello, $1"
 bundle install
 echo "> Installation completed"
